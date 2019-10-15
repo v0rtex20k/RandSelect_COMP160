@@ -14,7 +14,7 @@ from randSelect import randSelect
 
 
 def main():
-	v = [3,4,5,1,2]
+	v = [3, 4, 5, 1, 2]
 	rankWeWant = 3
 	ourNumber = randSelect(v, rankWeWant)
 	expectedNumber = sorted(v)[rankWeWant]
